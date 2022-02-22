@@ -1,0 +1,18 @@
+[package]
+name = "jdmp"
+version = "0.1.0"
+edition = "2021"
+authors = ["Joseph Hans Díaz González <eliotvonecklie@gmail.com>"]
+description = "A Rust open source music player based on AIMP, MusicBee and Foobar2000."
+homepage = "https://github.com/EliotVonEcklie/jdmp"
+repository = "https://github.com/EliotVonEcklie/jdmp"
+license = "MIT"
+
+[dependencies]
+sdl2 = "0.34.5"
+glow = "^0.10"
+imgui = { version = "0.8.1-alpha.0", path = "../imgui-rs/imgui" }
+imgui-sdl2-support = { version = "0.8.1-alpha.0", path = "../imgui-rs/imgui-sdl2-support" }
+imgui-glow-renderer = { version = "0.8.1-alpha.0", path = "../imgui-rs/imgui-glow-renderer" }
+libmpv = "^2.0"
+
